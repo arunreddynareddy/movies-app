@@ -1,0 +1,256 @@
+.movie-container {
+  background-color: #131313;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 85vh;
+}
+
+.movie-description-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: 80vh;
+}
+
+@media screen and (min-width: 768px) {
+  .movie-description-container {
+    align-items: flex-start;
+  }
+}
+
+.description-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  padding: 24px 32px;
+  min-height: 65vh;
+}
+
+@media screen and (min-width: 768px) {
+  .description-container {
+    width: 50%;
+    min-height: 65vh;
+  }
+}
+
+.description-heading {
+  color: #ffffff;
+  font-family: 'HK Grotesk';
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 46px;
+  margin: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .description-heading {
+    font-size: 48px;
+    line-height: 62px;
+  }
+}
+
+.censor-details-container {
+  display: flex;
+  align-items: center;
+}
+
+.censor-description {
+  color: #ffffff;
+  font-family: 'HK Grotesk';
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  margin-right: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .censor-description {
+    font-size: 18px;
+  }
+}
+
+.censor-rating {
+  border: 2px solid #ffffff;
+  border-radius: 4px;
+  padding: 2px 12px;
+  gap: 10px;
+}
+
+.description {
+  color: #ffffff;
+  font-family: 'HK Grotesk';
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  margin: 10px 0 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .description {
+    font-size: 20px;
+    line-height: 26px;
+  }
+}
+
+.description-button {
+  background-color: #ffffff;
+  color: #171f46;
+  font-family: 'HK Grotesk';
+  font-size: 14px;
+  font-weight: 600;
+  padding: 8px 24px;
+  border: none;
+  border-radius: 4px;
+  gap: 10px;
+  line-height: 16px;
+  letter-spacing: 5%;
+  margin-bottom: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .description-button {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+  }
+}
+
+.movie-details-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 24px 32px;
+  width: 100%;
+}
+
+.movie-numbers-container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .movie-numbers-container {
+    margin: 20px 0;
+  }
+}
+
+.numbers-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  min-height: 120px;
+  margin-right: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .numbers-container {
+    min-width: 23%;
+  }
+}
+
+.numbers-heading {
+  color: #64748b;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 600;
+  margin: 5px 0;
+}
+
+@media screen and (min-width: 768px) {
+  .numbers-heading {
+    margin-bottom: 12px 0;
+  }
+}
+
+.numbers-list-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 0;
+  margin: 0;
+}
+
+.number-list-item {
+  list-style-type: none;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 400;
+  margin: 2px 0;
+}
+
+@media screen and (min-width: 768px) {
+  .number-list-item {
+    margin: 4px 0;
+  }
+}
+
+.number-list-name {
+  margin: 0;
+}
+
+.similar-list-heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 600;
+  align-self: flex-start;
+  margin-bottom: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .similar-list-heading {
+    font-size: 24px;
+    line-height: 32px;
+  }
+}
+
+.similar-list-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+}
+
+.similar-list-item {
+  list-style-type: none;
+  margin: 5px;
+}
+
+@media screen and (min-width: 768px) {
+  .similar-list-item {
+    margin: 0 25px 25px 0;
+  }
+}
+
+.similar-list-image {
+  width: 90px;
+  height: 64px;
+  border-radius: 8px;
+  flex-grow: 1;
+}
+
+@media screen and (min-width: 768px) {
+  .similar-list-image {
+    width: 270px;
+    height: 170px;
+  }
+}

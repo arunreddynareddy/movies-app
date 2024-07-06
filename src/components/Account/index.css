@@ -1,0 +1,149 @@
+.account-container {
+  background-color: #131313;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.account-card {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  padding: 0 32px 20px;
+}
+
+.account-heading {
+  color: #131313;
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 500;
+  margin: 40px 0 5px;
+}
+
+@media screen and (min-width: 768px) {
+  .account-heading {
+    font-size: 36px;
+    font-weight: 700;
+    margin: 60px 0 20px;
+  }
+}
+
+.hr-line {
+  color: #cbd5e1;
+  width: 100%;
+  height: 1px;
+  border: 1px solid #cbd5e1;
+  border-radius: 10px;
+  margin: 0;
+}
+
+.account-details-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 15px 0;
+}
+
+.details-heading {
+  color: #94a3b8;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 600;
+  width: 120px;
+}
+
+@media screen and (min-width: 768px) {
+  .details-heading {
+    font-size: 24px;
+    width: 170px;
+  }
+}
+
+.personal-details-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.premium-details-container {
+  display: flex;
+  align-items: center;
+}
+
+.account-username,
+.account-type {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+  .account-username,
+  .account-type {
+    font-size: 24px;
+    font-weight: 400;
+  }
+  .account-username {
+    margin-bottom: 15px;
+  }
+}
+
+.account-password {
+  color: #64748b;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 0;
+  gap: 5px;
+}
+
+@media screen and (min-width: 768px) {
+  .account-password {
+    font-size: 24px;
+    font-weight: 400;
+  }
+}
+
+.account-type-span {
+  font-size: 14px;
+  font-weight: 600;
+  border: 1px solid #1e293b;
+  border-radius: 2px;
+  padding: 2px 4px;
+  gap: 10px;
+  margin-left: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .account-type-span {
+    font-size: 18px;
+    margin-left: 20px;
+  }
+}
+
+.logout-button {
+  align-self: center;
+  background: #e50914;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 20px;
+  cursor: pointer;
+  outline: none;
+  margin: 50px 0;
+}
+
+@media screen and (min-width: 768px) {
+  .logout-button {
+    margin-bottom: 100px;
+  }
+}

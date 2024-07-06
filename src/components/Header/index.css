@@ -1,0 +1,192 @@
+.nav-container {
+  background: rgba(19, 19, 19, 0.2);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 32px;
+  width: 100%;
+  min-height: 10vh;
+}
+
+.nav-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 10vh;
+}
+
+@media screen and (min-width: 768px) {
+  .nav-card {
+    height: 15vh;
+  }
+}
+
+.nav-list-container {
+  display: flex;
+  align-items: center;
+  padding: 0;
+}
+
+.nav-link {
+  text-decoration: none;
+}
+
+.list-item {
+  list-style-type: none;
+}
+
+.nav-web-logo {
+  width: 100px;
+  height: 27px;
+  margin-right: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .nav-web-logo {
+    width: 125px;
+    height: 39px;
+  }
+}
+
+.nav-list-item {
+  display: none;
+  list-style-type: none;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 400;
+  margin-left: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .nav-list-item {
+    display: inline-block;
+  }
+}
+
+.nav-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.search-container {
+  width: 114px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  border: 2px solid #ffffff;
+  border-radius: 4px;
+  margin-top: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .search-container {
+    width: 264px;
+    height: 40px;
+  }
+}
+
+.nav-search-input {
+  background: none;
+  border: none;
+  width: 100%;
+  height: 100%;
+  color: #babdc2;
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 500;
+  padding: 4px 10px;
+  outline: none;
+}
+
+@media screen and (min-width: 768px) {
+  .nav-search-input {
+    font-size: 14px;
+    color: #ffffff;
+  }
+}
+
+.search-input-button {
+  background-color: #2c2b2b;
+  padding: 5px 10px 3px;
+  border: none;
+  border-radius: 0 3px 3px 0;
+  width: 30px;
+  height: 20px;
+  cursor: pointer;
+  outline: none;
+}
+
+@media screen and (min-width: 768px) {
+  .search-input-button {
+    width: 64px;
+    height: 36px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .menu-icon {
+    display: none;
+  }
+}
+
+.nav-profile-image {
+  display: none;
+  width: 48px;
+  margin-left: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .nav-profile-image {
+    display: inline;
+  }
+}
+
+.nav-menu-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.display-menu {
+  display: none;
+}
+
+.nav-menu-list-container {
+  display: flex;
+  align-items: center;
+  padding: 0;
+}
+
+.nav-menu-link {
+  text-decoration: none;
+  margin-right: 30px;
+}
+
+.menu-item {
+  list-style-type: none;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.close-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.button {
+  display: none;
+}
+
+.highlight {
+  font-weight: 600;
+}
